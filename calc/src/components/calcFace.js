@@ -1,4 +1,5 @@
 import React from 'react';
+import OnClickAction from './onClickActions'
 
 const Face = () => {
     return(
@@ -10,7 +11,7 @@ const Face = () => {
             <button className='b1'>x</button>
             <button className='b1'>-</button>
             <br/>
-            <button className='b1'>7</button>
+            <button className='b1' onClick = {OnClickAction.onClick7}>7</button>
             <button className='b1'>8</button>
             <button className='b1'>9</button>
             <button className='b1'>+</button>
